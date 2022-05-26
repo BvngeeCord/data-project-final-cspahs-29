@@ -16,4 +16,4 @@ def ageBasedSadness():
   ageCounts = []
   for age in ageSet:
     ageCounts.append(utils.getcountofunique(ageColumn, age))
-  simple_bar_chart(ageSet, ageCounts, "Sadness Based on Age")
+  simple_bar_chart(ageSet, ageCounts, "# of Sad People")

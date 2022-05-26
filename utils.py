@@ -1,11 +1,11 @@
 # open the data file and reads the data creating
 # a table to be returned 
 def getdata(file_path):
-    file = open(file_path)
-    data = []
-    for line in file:
-   		data.append(line.strip().split(","))
-    return data
+  file = open(file_path)
+  data = []
+  for line in file:
+    data.append(line.strip().split(","))
+  return data
 
 # return the column of values from the data table
 def extractcolumn(data, colNum):

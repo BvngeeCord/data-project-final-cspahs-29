@@ -17,4 +17,4 @@ def ageAndGenderBasedBullied():
   for age in ageSet:
     male.append(utils.getcountofunique(list(map(lambda o: o[1], filter(lambda n: n[0] == age, rows))), "Male"))
     female.append(utils.getcountofunique(list(map(lambda o: o[1], filter(lambda n: n[0] == age, rows))), "Female"))
-  stacked_bar_chart(ageSet, male, female, "Male", "Female", "Number Bullied")
+  stacked_bar_chart(ageSet, male, female, "Male", "Female", "Number of People Bullied")
